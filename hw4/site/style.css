@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f8f8;
+}
+.surf {
+    height: 180px;
+    width: 200px;
+}
+.menu {
+    list-style-type: none;
+}
+.test-menu .myMenu {
+   color: #327e06;
+   font-size: 20px;
+   font-style: italic;
+   text-decoration: none;
+}
+.menu a:hover {
+    color: #07b1cf;
+    font-weight: 600;
+}
+.description-headers {
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #eaeaea;
+    color: #030101;
+}
+.text-description1 {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.text-description1::first-letter {
+    font-family: Arial, sans-serif;
+    color: #0c942e;
+    font-size: 20px;
+}
+.text-description2::first-letter {
+    font-family: Arial, sans-serif;
+    color: #227c3b;
+    font-size: 20px;
+}
+.text-description2 {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.image-marker,td {
+    border-collapse: collapse;
+    font-style: oblique;
+    font-size: 17px;
+    color:#0a6366 ;
+    border: 2px solid #000000;
+}
+.input-fields {
+    font-size: 13px;
+    color: #020101;
+    height: 20px;
+    width: 200px;
+    text-transform: capitalize;
+}
+.input-fields.input-email:focus {
+    background-color: #7df0e1;
+    text-transform: capitalize;
+    color: #6e5306;
+}
+.border1 {
+    border: 3px solid #136b7a;
+    width: 270px;
+    height: 300px;
+}
+.border1.test-border:hover {
+    border-color: transparent;
+}
+.footer {
+    text-align: center;
+    background-color:#c5ccca ;
+    height: 100px;
+    font-weight: 600;
+}
